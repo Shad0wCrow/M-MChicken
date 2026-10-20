@@ -1,6 +1,19 @@
 const WHATSAPP_NUMERO = "59170768620";
 
 const IMAGEN_PROVISIONAL = "assets/plato.jpg";
+const cocacola500 = "assets/cocacola500.png"
+const fanta500 = "assets/fanta500.jpeg"
+const sprite500 = "assets/sprite500.jpeg"
+const cocacola300 = "assets/cocacola300.jpeg"
+const fanta300 = "assets/fanta300.jpeg"
+const sprite300 = "assets/sprite300.jpeg"
+const polloBroasterEconomico = "assets/polloBroasterEconomico.jpeg"
+const polloBroasterCuarto = "assets/polloBroasterCuarto.jpeg"
+const lomitoEnPlato = "assets/lomitoEnPlato.jpeg"
+const sillpancho = "assets/sillpancho.jpeg"
+const trancapecho = "assets/trancapecho.jpeg"
+const promotrancapecho = "assets/trancapecho.jpeg"
+
 
 const categorias = [
   { id: "comidas", etiqueta: "Comidas", titulo: "Comidas" },
@@ -9,23 +22,20 @@ const categorias = [
 ];
 
 const productos = [
-  { id: 1, categoria: "comidas", nombre: "Pollo Broaster", descripcion: "Pollo crujiente acompañado de papas y ensalada.", precio: 45.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 2, categoria: "comidas", nombre: "Silpancho", descripcion: "Carne apanada sobre arroz y papas, con huevo y ensalada.", precio: 40.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 3, categoria: "comidas", nombre: "Pollo al Spiedo", descripcion: "Pollo asado al spiedo con guarniciones a elección.", precio: 42.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 4, categoria: "comidas", nombre: "Lomito", descripcion: "Lomo de res jugoso con arroz, papas y ensalada fresca.", precio: 48.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 5, categoria: "comidas", nombre: "Lomito con Pan", descripcion: "Lomito servido en pan crujiente con papas.", precio: 38.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 6, categoria: "comidas", nombre: "Trancapecho", descripcion: "Carne apanada en pan con huevo, tomate y cebolla.", precio: 35.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 7, categoria: "comidas", nombre: "Económico", descripcion: "Porción económica de pollo con papas y arroz.", precio: 25.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 8, categoria: "comidas", nombre: "Cuarto", descripcion: "Cuarto de pollo con papas fritas y ensalada.", precio: 30.0, imagen: IMAGEN_PROVISIONAL },
+  { id: 1, categoria: "comidas", nombre: "Pollo Broaster Económico", descripcion: "Pollo a la broaster con arroz, papas fritas, salsas y llajua.", precio: 19.0, imagen: polloBroasterEconomico },
+{ id: 2, categoria: "comidas", nombre: "Pollo Broaster Cuarto", descripcion: "2 Presas de pollo a la broaster con arroz, papas fritas, salsas y llajua.", precio: 34.0, imagen: polloBroasterCuarto },
+{ id: 3, categoria: "comidas", nombre: "Lomito en plato", descripcion: "Carne de res con chorrellana, acompañada de arroz, papas fritas y huevo.", precio: 22.0, imagen: lomitoEnPlato },
+{ id: 4, categoria: "comidas", nombre: "Sillpancho", descripcion: "Carne de res molida acompañada de arroz, papas fritas, huevo y guarnición de verduras.", precio: 21.0, imagen: sillpancho },
+{ id: 5, categoria: "comidas", nombre: "Trancapecho", descripcion: "Pan relleno con carne de res molida, acompañado de arroz, papas fritas y huevo.", precio: 19.0, imagen: trancapecho },
 
-  { id: 101, categoria: "bebidas", nombre: "Gaseosa 2 Litros", descripcion: "Bebida gaseosa bien fría para compartir.", precio: 15.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 102, categoria: "bebidas", nombre: "Gaseosa Personal", descripcion: "Bebida gaseosa individual.", precio: 7.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 103, categoria: "bebidas", nombre: "Jugo Natural", descripcion: "Jugo de fruta natural de temporada.", precio: 12.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 104, categoria: "bebidas", nombre: "Refresco de la Casa", descripcion: "Refresco tradicional preparado en el día.", precio: 8.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 105, categoria: "bebidas", nombre: "Agua Mineral", descripcion: "Agua mineral embotellada.", precio: 6.0, imagen: IMAGEN_PROVISIONAL },
-  { id: 106, categoria: "bebidas", nombre: "Cerveza", descripcion: "Cerveza nacional bien helada.", precio: 20.0, imagen: IMAGEN_PROVISIONAL },
 
-  { id: 201, categoria: "promociones", nombre: "Combo Familiar", descripcion: "Pollo entero con papas, ensalada y gaseosa de 2 litros.", precio: 120.0, imagen: IMAGEN_PROVISIONAL, etiqueta: "Promo" },
-  { id: 202, categoria: "promociones", nombre: "Combo Dúo", descripcion: "Dos platos a elección más dos bebidas personales.", precio: 85.0, imagen: IMAGEN_PROVISIONAL, etiqueta: "Promo" },
-  { id: 203, categoria: "promociones", nombre: "Combo Personal", descripcion: "Un plato a elección con bebida incluida.", precio: 50.0, imagen: IMAGEN_PROVISIONAL, etiqueta: "Promo" }
+  { id: 101, categoria: "bebidas", nombre: "Coca-Cola 500 ml", descripcion: "Bebida gaseosa para compartir.", precio: 10.0, imagen: cocacola500 },
+  { id: 102, categoria: "bebidas", nombre: "Fanta 500 ml", descripcion: "Bebida gaseosa para compartir.", precio: 10.0, imagen: fanta500 },
+  { id: 103, categoria: "bebidas", nombre: "Sprite 500 ml", descripcion: "Bebida gaseosa para compartir.", precio: 10.0, imagen: sprite500 },
+  { id: 104, categoria: "bebidas", nombre: "Coca-Cola 300 ml", descripcion: "Bebida gaseosa individual.", precio: 8.0, imagen: cocacola300 },
+  { id: 105, categoria: "bebidas", nombre: "Fanta 300 ml", descripcion: "Bebida gaseosa individual.", precio: 8.0, imagen: fanta300 },
+  { id: 106, categoria: "bebidas", nombre: "Sprite 300 ml", descripcion: "Bebida gaseosa individual.", precio: 8.0, imagen: sprite300 },
+  
+
+  { id: 201, categoria: "promociones", nombre: "Trancapecho con refresco", descripcion: "1 Trancapecho acompañado de un refresco de 300 ml a elección.", precio: 27.0, imagen: promotrancapecho, etiqueta: "Promo" },
 ];
